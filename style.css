@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  .flex-contain {
+    display: flex;
+    height: auto; /* Adjust this as needed */
+  }
+  
+  .flex-itemm-2 {
+    flex: 2;
+  
+    margin: 0; /* Remove margin */
+  }
+  
+  .flex-itemm-3 {
+    flex: 3;
+    margin: 0; /* Remove margin */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inter-item {
+    flex: 1;
+    background-color: rgb(17 24 39);
+    margin: 0; /* Remove margin */
+  }
